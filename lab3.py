@@ -96,6 +96,13 @@ class Condition():
         else:
             l[nomer-1].dveri = "Off"
             print("Двери закрыты")
+    def capot():
+        if l[nomer-1].capot == "Off":
+            l[nomer-1].capot = "On"
+            print("Капот открыт")
+        else:
+            l[nomer-1].capot = "Off"
+            print("Капот закрыт")
 
 class Izmcol:
     def add():
