@@ -104,6 +104,14 @@ class Condition():
             l[nomer-1].capot = "Off"
             print("Капот закрыт")
 
+    def bagaj():
+        if l[nomer-1].bagaj == "Off":
+            l[nomer-1].bagaj = "On"
+            print("Багажник открыт")
+        else:
+            l[nomer-1].bagaj = "Off"
+            print("Багажник закрыт")
+
 class Izmcol:
     def add():
         vvod = ''
